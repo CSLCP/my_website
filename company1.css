@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header .logo {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero .btn {
+    background: #ff5733;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background: #c70039;
+}
+
+.about, .services {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.service-item {
+    margin: 1rem 0;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer a {
+    color: #ff5733;
+    text-decoration: none;
+}
